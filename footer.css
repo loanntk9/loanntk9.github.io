@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer-all a:visited {
+  color: whitesmoke;
+}
+
+.footer-all {
+  background-color: black;
+  color: white;
+  padding-top: 30px;
+  position: relative;
+  line-height: 30px;
+  /* padding: 0 40px; */
+  width: 100%;
+  height: auto;
+}
+.footer-row1 {
+  position: relative;
+}
+.footer-row1-info1 {
+  display: grid;
+  width: fit-content;
+  grid-template-columns: 80% 80% 80%;
+  padding: 0 40px;
+}
+.footer-row1-info2 {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  font-size: 20px;
+}
+.footer-row1-info2-icons i {
+  margin: 15px;
+}
+.footer-row1-info2-icons a:hover {
+  background-color: #eeeeee;
+  color: black;
+}
+.footer-row1-info2-icons a {
+  border-radius: 20px;
+}
+.footer-row2-info1-1 {
+  padding: 20px 40px;
+  display: block;
+}
+.footer-row2-info2 ul {
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  right: 5%;
+}
+.footer-row2-info2 li {
+  margin: 20px 15px;
+}
+.footer-all-content a {
+  /* color: #7e7e7e;  */
+  font-size: 13px;
+}
+.footer-row1-info1-title {
+  font-family: "Oswald", sans-serif;
+}

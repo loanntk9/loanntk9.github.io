@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.style-home{
+    width: 1440px;
+    margin: 20px 40px;
+}
+.item-home{
+    /* border: 1px solid blue; */
+    position: relative;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+}
+
+.btn-home{
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    color: #000;
+    left: 250px;
+    bottom: 170px;
+    
+}
+.btn-home:hover{
+    background-color:rgb(202, 215, 227);
+}
+
+.item-women{
+    background-image:url(https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_1423,c_limit/1077c83c-b9e1-4584-bc27-1a8d56794768/women-s-shoes-clothing-accessories.png);
+}
+.item-man{
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_1423,c_limit/0537d2e4-c96c-46ca-9942-98866ff722dd/men-s-shoes-clothing-accessories.png);
+}
+.item-kid{
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_1423,c_limit/5ba3d11d-c826-498b-90c8-8c8479267697/nike-kids.png);
+}

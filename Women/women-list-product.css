@@ -6,37 +6,34 @@
 }
 .body-product{
     display: flex;
-    margin: 50px;
-    position: relative;
     flex-direction: row;
-    display: block;
-    /* flex-wrap: nowrap; */
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    /* border: 1px solid black; */
+
+
 }
 
 .wrap{
     display: flex;
     flex-wrap: wrap;
-    width: 75%;
+    width: 80%;
     box-sizing: border-box;
     height: max-content;
     display: inline-block;
-    position: absolute;
-    right: 30px;
+    margin-left: 10px;
     /* border: 1px solid rgb(185, 39, 39); */
 
     
 }
 
 .products{
-    /* display: flex; */
-    /* flex-wrap: wrap; */
     box-sizing: border-box;
     /* border: 1px solid red; */
     width: 33%;
     height: max-content;
     padding: 10px;
     display: inline-block;
-    /* position: absolute; */
 }
 
 
@@ -78,7 +75,6 @@
 }
 .add{
     text-transform: uppercase;
-    /* text-decoration: none; */
     text-align: center;
     display: block;
     background-color:#111;
@@ -112,15 +108,14 @@
 }  
 
 .menu{
-    display: flex;
-    width: 20vw;
-    box-sizing: border-box;
-    margin-right: 20px;
-    /* height: max-content; */
+    width: 18vw;
+    margin-right: 10px;
     display: inline-block;
-    position: fixed;
-    position: absolute;
-    left: 20px;
+    position: sticky;
+    top: 0;
+    left: 30px;
+    /* border: 1px solid black; */
+
 }
 /* .block-croll-bar{
     position: fixed;
@@ -162,7 +157,6 @@
 }
 .sub-menu li div:hover::after{
     width:100%;
-    /* max-width: max-content; */
 }
 .croll-bar{
     height: 500px;

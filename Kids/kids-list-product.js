@@ -98,7 +98,7 @@ function createProduct(list){
                         <a href="" class="product-thumb">
                              <img src="${list.photo}">
                         </a>
-                        <button class="add">ADD +</button>
+                        <button class="add" id="add">ADD +</button>
                     </div>
                     <div class="product-info">
                         <a href="#" class="product-cat">${list.catogory}</a>
@@ -114,7 +114,7 @@ function createProduct(list){
 
 // console.log(createProduct(litsProduct));
 
-var wp= document.getElementById("wraper");
+const wp= document.getElementById("wraper");
 // console.log(wp);
 
 function render(list){
@@ -127,5 +127,5 @@ function render(list){
 render(womenListProduct);
 
 
-// let ws= document.getElementById("menshoes");
-// console.log(ws);
+const btnAdd= document.getElementById("add");
+btnAdd.addEventListener("click",function(){alert("The product has been added to your cart");});

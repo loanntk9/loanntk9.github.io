@@ -23,13 +23,13 @@ function header() {
   </div>
   <div class="index-banner-df">
     <div class="index-banner-logo">
-        <a href="/index/index.htm"><img src="/imgs/logo/index-banner-df.png" alt=""></a>
+        <a href="./index.html"><img src="/imgs/logo/index-banner-df.png" alt=""></a>
     </div>
     <div class="index-banner-select">
         <ul>
-            <li><a href="/home-men/home-men.html">Men</a></li>
-            <li><a href="/home-women/home-wm.htm">Women</a></li>
-            <li><a href="/home-kids/home-kid.htm">Kids</a></li>
+            <li><a href="./Men/men-list-product.html">Men</a></li>
+            <li><a href="./Women/women-list-product.html">Women</a></li>
+            <li><a href="./Kids/kids-list-product.html">Kids</a></li>
         </ul>
     </div>
     <div class="index-banner-df-blockicons">

@@ -119,10 +119,6 @@ function createProduct(list){
     `;
 }
 
-
-
-// console.log(createProduct(litsProduct));
-
 const wp= document.getElementById("wraper");
 // console.log(wp);
 

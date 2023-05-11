@@ -75,7 +75,7 @@ function header() {
   const menLink = document.querySelector("hd-link-m" );
   menLink.addEventListener("click", redirectToMen);
   function redirectToKids(){
-    window.location.href = "/Men/men-list-product.html";
+    window.location.href = "./Men/men-list-product.html";
   }
   const kidsLink = document.querySelector("hd-select-k" );
   kidsLink.addEventListener("click", redirectToKids);

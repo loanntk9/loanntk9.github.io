@@ -27,9 +27,9 @@ function header() {
     </div>
     <div class="index-banner-select">
         <ul>
-            <li><a href="./Men/men-list-product.html">Men</a></li>
-            <li><a href="./Women/women-list-product.html" >Women</a></li>
-            <li><a href="./Kids/kids-list-product.html">Kids</a></li>
+            <li><a href="Men/men-list-product.html">Men</a></li>
+            <li><a href="Women/women-list-product.html" >Women</a></li>
+            <li><a href="Kids/kids-list-product.html">Kids</a></li>
         </ul>
     </div>
     <div class="index-banner-df-blockicons">

@@ -29,7 +29,7 @@ function header() {
         <ul>
             <li><a href="#" onclick="redirectToMen()">Men</a></li>
             <li><a href="#" onclick="redirectToWomen()">Women</a></li>
-            <li><a href="#" onclick="redirectToKids()"">Kids</a></li>
+            <li><a href="#" onclick="redirectToKids()">Kids</a></li>
         </ul>
     </div>
     <div class="index-banner-df-blockicons">

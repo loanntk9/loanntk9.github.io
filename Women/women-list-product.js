@@ -2,7 +2,7 @@
 let womenListProduct=[
     {
         id: 1,
-        link:"./product/women1.html",
+        link:"../product/women1.html",
         catogory: "Women's clothes",
         name:"Nike Sportswear Tech Pack",
         color:1,
@@ -12,7 +12,7 @@ let womenListProduct=[
    
     {
         id: 2,
-        link:"./product/women2.html",
+        link:"../product/women2.html",
         catogory: "Women's Shoes",
         name:"Nike Kiger 9",
         color:1,
@@ -22,7 +22,7 @@ let womenListProduct=[
     
     {
         id: 3,
-        link:"./product/women3.html",
+        link:"../product/women3.html",
         catogory: "Women's Shoes",
         name:"Nike In-Season TR 13",
         color:1,
@@ -32,7 +32,7 @@ let womenListProduct=[
     
     {
         id: 4,
-        link:"./product/women4.html",
+        link:"../product/women4.html",
         catogory: "Women's clothes",
         name:"Nike Forward Shorts",
         color:1,
@@ -42,7 +42,7 @@ let womenListProduct=[
     
     {
         id: 5,
-        link:"./product/women5.html",
+        link:"../product/women5.html",
         catogory: "Women's Shoes",
         name:"Nike Pegasus 40",
         color:1,
@@ -52,7 +52,7 @@ let womenListProduct=[
    
     {
         id: 6,
-        link:"./product/women6.html",
+        link:"../product/women6.html",
         catogory: "Women's clothes",
         name:"Nike Dri-FIT One",
         color:1,
@@ -62,7 +62,7 @@ let womenListProduct=[
   
     {
         id: 7,
-        link:"./product/women7.html",
+        link:"../product/women7.html",
         catogory: "Women's Shoes",
         name:"Nike Quest 5 Premium",
         color:1,
@@ -72,7 +72,7 @@ let womenListProduct=[
    
     {
         id: 8,
-        link:"./product/women8.html",
+        link:"../product/women8.html",
         catogory: "Women's Shoes",
         name:"Nike Air Max 97",
         color:1,
@@ -82,7 +82,7 @@ let womenListProduct=[
   
     {
         id: 9,
-        link:"./product/women9.html",
+        link:"../product/women9.html",
         catogory: "Women's clothes",
         name:"Nike Dri-FIT One Luxe",
         color:1,

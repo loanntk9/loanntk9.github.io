@@ -27,9 +27,9 @@ function header() {
     </div>
     <div class="index-banner-select">
         <ul>
-            <li><a href="#" onclick="redirectToMen()">Men</a></li>
-            <li><a href="#" onclick="redirectToWomen()">Women</a></li>
-            <li><a href="#" onclick="redirectToKids()">Kids</a></li>
+            <li><a href="../Men/men-list-product.html">Men</a></li>
+            <li><a href="../Women/women-list-product.html">Women</a></li>
+            <li><a href="../Kids/kids-list-product.html">Kids</a></li>
         </ul>
     </div>
     <div class="index-banner-df-blockicons">
@@ -59,12 +59,12 @@ function header() {
   header1.innerHTML = header();
 
 
-  function redirectToMen(){
-    window.location.href = "../Men/men-list-product.html";
-  }
-  function redirectToWomen(){
-    window.location.href = "../Women/women-list-product.html";
-  }
-  function redirectToKids(){
-    window.location.href = "../Kids/kids-list-product.html";
-  }
+//   function redirectToMen(){
+//     window.location.href = "../Men/men-list-product.html";
+//   }
+//   function redirectToWomen(){
+//     window.location.href = "../Women/women-list-product.html";
+//   }
+//   function redirectToKids(){
+//     window.location.href = "../Kids/kids-list-product.html";
+//   }

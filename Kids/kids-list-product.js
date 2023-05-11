@@ -2,7 +2,7 @@
 let kidsListProduct=[
     {
         id: 19,
-        link:"D:/KieuLoan/project-internship/product/kids19.html",
+        link:"../product/kids19.html",
         catogory: "Kids' Shoes",
         name:"Nike Sunray Adjust 6 ",
         color:2,
@@ -13,7 +13,7 @@ let kidsListProduct=[
 
     {
         id: 20,
-        link:"D:/KieuLoan/project-internship/product/kids20.html",
+        link:"../product/kids20.html",
         catogory: "Kids' Shoes",
         name:"Nike Rift 2",
         color:1,
@@ -23,7 +23,7 @@ let kidsListProduct=[
     
     {
         id: 21,
-        link:"D:/KieuLoan/project-internship/product/kids21.html",
+        link:"../product/kids21.html",
         catogory: "Kids' Clothes",
         name:"Nike Air",
         color:1,
@@ -35,7 +35,7 @@ let kidsListProduct=[
 
     {
         id: 22,
-        link:"D:/KieuLoan/project-internship/product/kids22.html",
+        link:"../product/kids22.html",
         catogory: "Kids' Shoes",
         name:"Nike Air Force 1 LE",
         color:1,
@@ -45,7 +45,7 @@ let kidsListProduct=[
     
     {
         id: 23,
-        link:"D:/KieuLoan/project-internship/product/kids23.html",
+        link:"../product/kids23.html",
         catogory: "Kids' Clothes",
         name:"Nike Sportswear",
         color:1,
@@ -55,7 +55,7 @@ let kidsListProduct=[
 
     {
         id: 24,
-        link:"D:/KieuLoan/project-internship/product/kids24.html",
+        link:"../product/kids24.html",
         catogory: "Kids' Clothes",
         name:"Nike Sportswear",
         color:1,
@@ -65,7 +65,7 @@ let kidsListProduct=[
     
     {
         id: 25,
-        link:"D:/KieuLoan/project-internship/product/kids25.html",
+        link:"../product/kids25.html",
         catogory: "Kids' Shoes",
         name:"Nike Flex Plus 2",
         color:1,
@@ -75,7 +75,7 @@ let kidsListProduct=[
     
     {
         id: 26,
-        link:"D:/KieuLoan/project-internship/product/kids26.html",
+        link:"../product/kids26.html",
         catogory: "Kids' Clothes",
         name:"Nike Outdoor Play",
         color:1,
@@ -85,7 +85,7 @@ let kidsListProduct=[
     
     {
         id: 27,
-        link:"D:/KieuLoan/project-internship/product/kids27.html",
+        link:"../product/kids27.html",
         catogory: "Kids' Shoes",
         name:"Nike Air Zoom Pegasus 40",
         color:1,

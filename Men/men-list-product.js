@@ -2,7 +2,7 @@
 let womenListProduct=[
     {
         id: 10,
-        link:"D:/KieuLoan/project-internship/product/men10.html",
+        link:"../product/men10.html",
         catogory: "Men's Shoes",
         name:"Nike Air Max 97",
         color:1,
@@ -12,7 +12,7 @@ let womenListProduct=[
 
     {
         id: 11,
-        link:"D:/KieuLoan/project-internship/product/men11.html",
+        link:"../product/men11.html",
         catogory: "Men's Clothes",
         name:"Nike ACG",
         color:1,
@@ -22,7 +22,7 @@ let womenListProduct=[
     
     {
         id: 12,
-        link:"D:/KieuLoan/project-internship/product/men12.html",
+        link:"../product/men12.html",
         catogory: "Men's Shoes",
         name:"Nike Air Force 1 '07 LV8",
         color:1,
@@ -32,7 +32,7 @@ let womenListProduct=[
     
     {
         id: 13,
-        link:"D:/KieuLoan/project-internship/product/men13.html",
+        link:"../product/men13.html",
         catogory: "Men's Shoes",
         name:"Nike Dunk Low",
         color:1,
@@ -42,7 +42,7 @@ let womenListProduct=[
    
     {
         id: 14,
-        link:"D:/KieuLoan/project-internship/product/men14.html",
+        link:"../product/men14.html",
         catogory: "Men's Clothes",
         name:"Jordan Dri-FIT Sport",
         color:1,
@@ -52,7 +52,7 @@ let womenListProduct=[
 
     {
         id: 15,
-        link:"D:/KieuLoan/project-internship/product/men15.html",
+        link:"../product/men15.html",
         catogory: "Men's Clothes",
         name:"Nike Sportswear",
         color:3,
@@ -62,7 +62,7 @@ let womenListProduct=[
 
     {
         id: 16,
-        link:"D:/KieuLoan/project-internship/product/men16.html",
+        link:"../product/men16.html",
         catogory: "Men's Shoes",
         name:"Nike Air Max AP",
         color:1,
@@ -72,7 +72,7 @@ let womenListProduct=[
     
     {
         id: 17,
-        link:"D:/KieuLoan/project-internship/product/men17.html",
+        link:"../product/men17.html",
         catogory: "Men's Clothes",
         name:"Nike Sportswear Air",
         color:1,
@@ -82,7 +82,7 @@ let womenListProduct=[
     
     {
         id: 18,
-        link:"D:/KieuLoan/project-internship/product/men18.html",
+        link:"../product/men18.html",
         catogory: "Men's Shoes",
         name:"Nike Vaporfly 3",
         color:1,

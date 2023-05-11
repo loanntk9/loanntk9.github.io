@@ -2,7 +2,7 @@
 let pegasusListProduct=[
     {
         id: 28,
-        link:"D:/KieuLoan/project-internship/product/pegasus28.html",
+        link:"../product/pegasus28.html",
         catogory: "Nike Pegasus",
         name:"Nike Pegasus 40 Premium",
         color:1,
@@ -12,7 +12,7 @@ let pegasusListProduct=[
    
     {
         id: 29,
-        link:"D:/KieuLoan/project-internship/product/pegasus29.html",
+        link:"../product/pegasus29.html",
         catogory: "Nike Pegasus",
         name:"Nike Pegasus 40 Premium",
         color:1,
@@ -22,7 +22,7 @@ let pegasusListProduct=[
   
     {
         id: 30,
-        link:"D:/KieuLoan/project-internship/product/pegasus30.html",
+        link:"../product/pegasus30.html",
         catogory: "Nike Pegasus",
         name:"Nike Pegasus 40",
         color:1,
@@ -32,7 +32,7 @@ let pegasusListProduct=[
     
     {
         id: 31,
-        link:"D:/KieuLoan/project-internship/product/pegasus31.html",
+        link:"../product/pegasus31.html",
         catogory: "Nike Pegasus",
         name:"Nike Air Zoom Pegasus 40",
         color:1,
@@ -42,7 +42,7 @@ let pegasusListProduct=[
     
     {
         id: 32,
-        link:"D:/KieuLoan/project-internship/product/pegasus32.html",
+        link:"../product/pegasus32.html",
         catogory: "Nike Pegasus",
         name:"Nike Pegasus 40",
         color:1,
@@ -52,7 +52,7 @@ let pegasusListProduct=[
    
     {
         id: 33,
-        link:"D:/KieuLoan/project-internship/product/pegasus33.html",
+        link:"../product/pegasus33.html",
         catogory: "Nike Pegasus",
         name:"Nike React Pegasus Trail 4 SE",
         color:1,
@@ -62,7 +62,7 @@ let pegasusListProduct=[
   
     {
         id: 34,
-        link:"D:/KieuLoan/project-internship/product/pegasus34.html",
+        link:"../product/pegasus34.html",
         catogory: "Nike Pegasus",
         name:"Nike Pegasus FlyEase SE",
         color:1,
@@ -72,7 +72,7 @@ let pegasusListProduct=[
    
     {
         id: 35,
-        link:"D:/KieuLoan/project-internship/product/pegasus35.html",
+        link:"../product/pegasus35.html",
         catogory: "Nike Pegasus",
         name:"Nike Dri-FIT",
         color:1,
@@ -82,7 +82,7 @@ let pegasusListProduct=[
    
     {
         id: 36,
-        link:"D:/KieuLoan/project-internship/product/pegasus36.html",
+        link:"../product/pegasus36.html",
         catogory: "Nike Pegasus",
         name:"Nike Dri-FIT",
         color:1,

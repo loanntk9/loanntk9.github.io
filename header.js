@@ -27,7 +27,7 @@ function header() {
     </div>
     <div class="index-banner-select">
         <ul>
-            <li><a id="hd-link-m" href="#" onclick="redirectToMen()">Men</a></li>
+            <li><a href="#" onclick="redirectToMen()">Men</a></li>
             <li><a href="Women/women-list-product.html" >Women</a></li>
             <li><a href="Kids/kids-list-product.html">Kids</a></li>
         </ul>
@@ -58,24 +58,22 @@ function header() {
   let header1 = document.getElementById("header-index");
   header1.innerHTML = header();
 
-  function redirectToWomen(){
-    const currentDomain = window.location.origin;
-    const womenListUrl = "/Women/women-list-product.html";
-    const womenListFullUrl = `${currentDomain}${womenListUrl}`;
-    window.location.href = womenListFullUrl;
-  }
-    const womenLink = document.querySelector("hd-select-wm" );
-    womenLink.addEventListener("click", redirectToWomen);
+//   function redirectToWomen(){
+//     const currentDomain = window.location.origin;
+//     const womenListUrl = "/Women/women-list-product.html";
+//     const womenListFullUrl = `${currentDomain}${womenListUrl}`;
+//     window.location.href = womenListFullUrl;
+//   }
+//     const womenLink = document.querySelector("hd-select-wm" );
+//     womenLink.addEventListener("click", redirectToWomen);
+//   function redirectToMen(){
+//     const currentDomain = window.location.origin;
+//     const menListUrl = "/men/men-list-product.html";
+//     const menListFullUrl = `${currentDomain}${menListUrl}`;
+//     window.location.href = menListFullUrl;
+//   }
   function redirectToMen(){
-    const currentDomain = window.location.origin;
-    const menListUrl = "/men/men-list-product.html";
-    const menListFullUrl = `${currentDomain}${menListUrl}`;
-    window.location.href = menListFullUrl;
+    window.location.href = "/Men/men-list-product.html";
   }
-  const menLink = document.querySelector("hd-link-m" );
-  menLink.addEventListener("click", redirectToMen);
-  function redirectToKids(){
-    window.location.href = "./Men/men-list-product.html";
-  }
-  const kidsLink = document.querySelector("hd-select-k" );
-  kidsLink.addEventListener("click", redirectToKids);
+//   const kidsLink = document.querySelector("hd-select-k" );
+//   kidsLink.addEventListener("click", redirectToKids);

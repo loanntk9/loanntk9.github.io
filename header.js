@@ -27,7 +27,7 @@ function header() {
     </div>
     <div class="index-banner-select">
         <ul>
-            <li><a href="Men/men-list-product.html">Men</a></li>
+            <li><a id="hd-link-m" href="#" onclick="redirectToMen()">Men</a></li>
             <li><a href="Women/women-list-product.html" >Women</a></li>
             <li><a href="Kids/kids-list-product.html">Kids</a></li>
         </ul>
@@ -72,13 +72,10 @@ function header() {
     const menListFullUrl = `${currentDomain}${menListUrl}`;
     window.location.href = menListFullUrl;
   }
-  const menLink = document.querySelector("hd-select-m" );
+  const menLink = document.querySelector("hd-link-m" );
   menLink.addEventListener("click", redirectToMen);
   function redirectToKids(){
-    const currentDomain = window.location.origin;
-    const kidsListUrl = "/kids/kids-list-product.html";
-    const kidsListFullUrl = `${currentDomain}${kidsListUrl}`;
-    window.location.href = kidsListFullUrl;
+    window.location.href = "/Men/men-list-product.html";
   }
   const kidsLink = document.querySelector("hd-select-k" );
   kidsLink.addEventListener("click", redirectToKids);

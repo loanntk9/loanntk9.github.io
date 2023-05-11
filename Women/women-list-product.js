@@ -101,7 +101,7 @@ function createProduct(list){
                         <a href="${list.link}" class="product-thumb">
                              <img src="${list.photo}">
                         </a>
-                        <button class="add" id="add">ADD +</button>
+                        <button class="add" id="${list.id}">ADD +</button>
                     </div>
                     <div class="product-info">
                         <a href="${list.link}" class="product-cat">${list.catogory}</a>

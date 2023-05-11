@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+.cart-fp{
+    /* margin-top: 30px; */
+    margin-left: 50px;
+}
+
+.cart-fp-txt{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 1000; 
+}
+.cart-frame{
+
+    /* border: 1px solid black; */
+    /* background-color: aquamarine; */
+    height: 600px;
+    width: 30vw;
+    position: relative;
+    /* margin-top: 30px; */
+    margin-left: 50px;
+    
+}
+.items-frame{
+    /* border: 1px solid blue; */
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    overflow-y:auto;
+    overflow-x: hidden;
+}
+.item-frame{
+    border-bottom: 1px solid rgb(91, 89, 89);
+    height: 100px;
+    width: 30vw;;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+}
+.cart-img{
+    /* border: 1px solid black; */
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 20px;
+}
+.cart-txt{
+    /* border: 1px solid black; */
+    flex-direction: column;
+    width: fit-content;
+    height: 80px;
+    position: absolute;
+    left: 110px;
+
+}
+.cart-txt p{
+    margin-top: 15px;
+}
+.cart-del-pro{
+    width: 50px;
+    height: 30px;
+    border-radius: 20px;
+    /* border: 1px solid black; */
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.cart-btn-checkout{
+    height: 60px;
+    width: 300px;
+    position: absolute;
+    left: 100px;
+    bottom: 5px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(18, 17, 17);
+}
+.cart-txt-total1{
+    position: absolute;
+    left: 20px;
+    bottom: 75px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.cart-txt-total2{
+    font-size: 30px;
+    font-weight: 300px;
+    
+}
+ .cart-del-pro:hover{
+    border: 1px solid black;
+}
+.cart-btn-checkout:hover{
+    background-color:rgb(64, 65, 66);
+}

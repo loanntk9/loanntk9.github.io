@@ -17,11 +17,11 @@
 .wrap{
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 80vw;
     box-sizing: border-box;
     height: max-content;
     display: inline-block;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     /* border: 1px solid rgb(185, 39, 39); */
 
     
@@ -108,8 +108,8 @@
 }  
 
 .menu{
-    width: 18vw;
-    margin-right: 10px;
+    width: 16vw;
+    /* margin-right: 10px; */
     display: inline-block;
     position: sticky;
     top: 0;

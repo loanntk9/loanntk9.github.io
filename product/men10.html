@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Nike.Just Do It</title> -->
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="../footer.css">
+    <link rel="stylesheet" href="../menu.css">
+    <link rel="stylesheet" href="./product.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div id="header-index"></div>
+
+    <div class="hoang-body">
+        <div class="hoang-img">
+          <button class="h-img-btn">
+            <img
+              src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a47b2ef9-8239-4e82-99fd-e6159c0df489/air-max-97-shoes-EBZrb8.png"
+              alt="img1"
+            />
+          </button>
+          <button class="h-img-btn">
+            <img
+              src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/50cbf7c9-2a4a-41e5-a2ef-4b3acd7fa664/air-max-97-shoes-EBZrb8.png"
+              alt="img2"
+            />
+          </button>
+          <button class="h-img-btn">
+            <img
+              src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7a717540-b712-486d-8612-acd2a8905d5f/air-max-97-shoes-EBZrb8.png"
+              alt="img3"
+            />
+          </button>
+          <button class="h-img-btn">
+            <img
+              src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c67d1f9d-9bd3-48f3-8b7d-87a0a521df29/air-max-97-shoes-EBZrb8.png"
+              alt="img4"
+            />
+          </button>
+          <button class="h-img-btn">
+            <img
+              src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9fe9896d-8ddb-409e-a445-af9e83ce28be/air-max-97-shoes-EBZrb8.png"
+              alt="img5"
+            />
+          </button>
+          <button class="h-img-btn">
+            <img
+              src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/84c25034-65c3-4a15-b3c2-f9367b00bcd6/air-max-97-shoes-EBZrb8.png"
+              alt="img6"
+            />
+          </button>
+        </div>
+        <div class="hoang-details">
+          <div>
+            <h1>Nike Air Max 97</h1>
+            <p>Men's Shoes</p>
+            <p>4,699,000₫</p>
+          </div>
+          <div>
+            <div class="h-clt-size">
+              <span>Select size</span>
+              <a href="https://www.nike.com/vn/size-fit/mens-bottoms-asian-alpha"
+                >Size Guide</a
+              >
+            </div>
+            <div class="h-clt-sizeSelector">
+              <li>
+                <input type="radio" id="sizeS" />
+                <label for="sizeS">40</label>
+              </li>
+              <li>
+                <input type="radio" id="sizeM" />
+                <label for="sizeM">41</label>
+              </li>
+              <li>
+                <input type="radio" id="sizeL" />
+                <label for="sizeL">42</label>
+              </li>
+              <li>
+                <input type="radio" id="sizeXL" />
+                <label for="sizeXL">43</label>
+              </li>
+              <li>
+                <input type="radio" id="size2XL" />
+                <label for="size2XL">44</label>
+              </li>
+            </div>
+            <div class="h-clt-Button">
+              <button class="h-clt-Button1" onclick="productAdd()">Add to Bag</button>
+              <button class="h-clt-Button2">
+                Favourite <i class="fa-regular fa-heart"></i>
+              </button>
+            </div>
+          </div>
+          <div class="h-clt-textNote">
+            <p>
+                Featuring the original ripple design inspired by Japanese bullet trains, the Nike Air Max 97 lets you push your style full-speed ahead.Taking the revolutionary full-length Nike Air unit that shook up the running world and adding fresh colours and crisp details, it lets you ride in first-class comfort.
+            </p>
+            <ul>
+              <li>Colour Shown: White/Black/Wolf Grey</li>
+              <li>Style: 921826-101</li>
+            </ul>
+            <a href="#" class="h-clt-noteButton">View Product Details</a>
+          </div>
+          <div class="h-clt-togglelist">
+            <details>
+              <summary>
+                <h3>Size & Fit</h3>
+              </summary>
+              <ul>
+                <li>Model is wearing size M and is 6'3" (191cm approx.)</li>
+                <li>Standard fit for a relaxed, easy feel</li>
+                <li>
+                  <a
+                    href="https://www.nike.com/vn/size-fit/mens-bottoms-asian-alpha"
+                    >Size Guide</a
+                  >
+                </li>
+              </ul>
+            </details>
+  
+            <details>
+              <summary>
+                <h3>Free Delivery and Returns</h3>
+              </summary>
+              <p>Your order of 5.000.000₫ or more gets free standard delivery.</p>
+              <ul>
+                <li>Standard delivered 4-5 Business Days</li>
+                <li>Express delivered 2-4 Business Days</li>
+              </ul>
+              <div>
+                <p>
+                  Orders are processed and delivered Monday-Friday (excluding
+                  public holidays)
+                </p>
+                <p>Nike Members enjoy <a href="#">free returns.</a></p>
+              </div>
+            </details>
+  
+            <details>
+              <summary>
+                <div>
+                  <h3>Reviews</h3>
+                <div>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                </div>
+              </summary>
+            
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+                <span>0 Stars</span>
+              </span>
+              <div>
+                <p>Have your say. Be the first to review the Nike SB.</p>
+                <a class="h-clt-text1" href="#">Write a Review</a>
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+    <script>
+        function productAdd() {
+            alert("The product has been added to your cart");
+        }
+    </script>
+      
+    <div id="footer-index"></div>
+    
+    <script src="../header.js"></script>
+    <script src="../footer.js"></script>
+    <script src="../menu.js"></script>
+
+</body>
+
+
+</html>

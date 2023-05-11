@@ -1,7 +1,7 @@
 function header() {
     return ` <div class="index-header-info-df">
     <div class="index-header-info-logo">
-        <a href="/index/index.htm"><img src="/imgs/logo/logo-hd-if.png" alt=""></a>
+        <a href="D:/KieuLoan/project-internship/index.html"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Jumpman_logo.svg/200px-Jumpman_logo.svg.png" alt=""></a>
     </div>
     <div class="index-header-info">
         <a href="https://www.nike.com/vn/retail">
@@ -23,13 +23,13 @@ function header() {
   </div>
   <div class="index-banner-df">
     <div class="index-banner-logo">
-        <a href="./index.html"><img src="/imgs/logo/index-banner-df.png" alt=""></a>
+        <a href="D:/KieuLoan/project-internship/index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1200px-Logo_NIKE.svg.png" alt=""></a>
     </div>
     <div class="index-banner-select">
         <ul>
-            <li><a href="./Men/men-list-product.html">Men</a></li>
-            <li><a href="./Women/women-list-product.html">Women</a></li>
-            <li><a href="./Kids/kids-list-product.html">Kids</a></li>
+            <li><a href="D:/KieuLoan/project-internship/Men/men-list-product.html">Men</a></li>
+            <li><a href="D:/KieuLoan/project-internship/Women/women-list-product.html" >Women</a></li>
+            <li><a href="D:/KieuLoan/project-internship/Kids/kids-list-product.html">Kids</a></li>
         </ul>
     </div>
     <div class="index-banner-df-blockicons">
@@ -58,5 +58,27 @@ function header() {
   let header1 = document.getElementById("header-index");
   header1.innerHTML = header();
 
-
-  
+  function redirectToWomen(){
+    const currentDomain = window.location.origin;
+    const womenListUrl = "/Women/women-list-product.html";
+    const womenListFullUrl = `${currentDomain}${womenListUrl}`;
+    window.location.href = womenListFullUrl;
+  }
+    const womenLink = document.querySelector("hd-select-wm" );
+    womenLink.addEventListener("click", redirectToWomen);
+  function redirectToMen(){
+    const currentDomain = window.location.origin;
+    const menListUrl = "/men/men-list-product.html";
+    const menListFullUrl = `${currentDomain}${menListUrl}`;
+    window.location.href = menListFullUrl;
+  }
+  const menLink = document.querySelector("hd-select-m" );
+  menLink.addEventListener("click", redirectToMen);
+  function redirectToKids(){
+    const currentDomain = window.location.origin;
+    const kidsListUrl = "/kids/kids-list-product.html";
+    const kidsListFullUrl = `${currentDomain}${kidsListUrl}`;
+    window.location.href = kidsListFullUrl;
+  }
+  const kidsLink = document.querySelector("hd-select-k" );
+  kidsLink.addEventListener("click", redirectToKids);

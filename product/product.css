@@ -1,0 +1,185 @@
+.hoang-body {
+    max-width: 1263px;
+    height: 1515.6px;
+    display: flex;
+    justify-content: center;
+}
+
+.hoang-img {
+    width: 807px;
+    height: 1395.6px;
+    padding-top: 50px;
+    margin: 0px 50px;
+}
+
+.hoang-img img {
+    width: 345.5px;
+    height: 431.867px;
+    object-fit: contain;
+
+}
+
+.h-img-btn {
+    border: none;
+    cursor: pointer;
+    margin: 8px;
+}
+
+.hoang-details {
+    width: 456px;
+    height: 1395.6px;
+    padding: 50px;
+}
+
+.hoang-details h1 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.hoang-details p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.h-clt-size {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.h-clt-size a {
+    color: #757575;
+    text-decoration: none;
+}
+
+.h-clt-sizeSelector {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 7px;
+    margin-top: 8px;
+    list-style-type: none;
+}
+
+.h-clt-sizeSelector input[type="radio"] {
+    opacity: 0.01;
+}
+
+.h-clt-sizeSelector li {
+    box-shadow: rgb(234, 234, 234) 0px 0px 0px 1px;
+    height: 48px;
+    border-radius: 4px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-right: 10px;
+    border: 1px solid #CCC;
+    cursor: pointer;
+}
+
+.h-clt-sizeSelector li:hover {
+    cursor: pointer;
+    z-index: 90;
+    border: black 1px solid;
+}
+
+.h-clt-Button1 {
+    width: 100%;
+    padding: 18px 24px;
+    border-radius: 30px;
+    background-color: #111;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
+}
+
+.h-clt-Button2 {
+    width: 100%;
+    padding: 18px 24px;
+    border-radius: 30px;
+    color: #111;
+    font-size: 15px;
+    margin-top: 12px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.h-clt-Button1:hover {
+    background-color: rgb(122, 122, 122);
+}
+
+.h-clt-Button2:hover {
+    border: 1px solid #111;
+}
+
+.h-clt-note {
+    background-color: rgb(245, 245, 245);
+    border-radius: 4px;
+    padding: 27px;
+    position: relative;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.h-clt-textNote {
+    margin: 50px 0;
+    font-size: 17px;
+    word-spacing: 1px;
+    line-height: 27px;
+}
+
+.h-clt-textNote ul {
+    margin: 25px 0 25px 15px;
+    list-style-type: disc;
+}
+
+
+.h-clt-noteButton {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    background: none;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.h-clt-togglelist summary {
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: inset 0 1px 0 0 var(--palette-dismissive, #E5E5E5);
+    display: flex;
+}
+
+.h-clt-togglelist h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    padding: 28px 0;
+}
+
+.h-clt-togglelist ul {
+    font-size: 17px;
+    padding: 18px;
+    line-height: 1.6;
+    list-style-type: disc;
+}
+
+.h-clt-togglelist p {
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+.h-clt-stars i {
+    color: #ccc;
+    font-size: 15px;
+}
+
+.h-clt-text1 {
+    position: relative;
+    top: 20px;
+}

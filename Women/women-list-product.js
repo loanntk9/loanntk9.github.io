@@ -1,101 +1,95 @@
 
 let womenListProduct=[
     {
-        id: 10,
-        catogory: "Women's clothing",
-        name:"The Nike Polo ",
-        color:2,
-        price:"1,479,000₫",
-        link:"../product/product.html",
-        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0e80a651-e22c-4998-b156-68cac8a33e35/polo-polo-j38PbP.png"
-    },
-    
-
-    {
-        id: 11,
-        link:"",
-        catogory: "Women's clothing",
-        name:"Naomi Osaka Collection",
+        id: 1,
+        link:"D:/KieuLoan/project-internship/product/women1.html",
+        catogory: "Women's clothes",
+        name:"Nike Sportswear Tech Pack",
         color:1,
-        price:"1,299,649₫",
-        link:"../product/product.html",
-        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e11c8cb8-a1bd-461c-be40-5ba14a12d7d7/naomi-osaka-collection-cropped-tennis-top-trPTd2.png"
+        price:"1,789,000₫",
+        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/eb2acd2c-4e62-4c64-97d0-c982027542de/sportswear-tech-pack-dri-fit-adv-bodysuit-4ml3Qd.png"
     },
-    
+   
     {
-        id: 12,
-        catogory: "Women's clothing",
-        name:"Nike Dri-FIT ADV AeroSwift",
-        color:1,
-        price:"1,429,000₫",
-        link:"../product/product.html",
-        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1ae6aa5f-baf7-4e7c-942d-4a6ba3d547d0/dri-fit-adv-aeroswift-racing-crop-top-s0Ctkr.png"
-    },
-    
-
-
-    {
-        id: 13,
-        catogory: "Women's clothing",
-        name:"Nike Sportswear Essential",
-        color:3,
-        price:"659,000₫",
-        link:"../product/product.html",
-        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/53eb91da-8797-4664-b7b0-a42a95f1d4fa/sportswear-essential-t-shirt-9RqXMb.png"
-    },
-    
-    {
-        id: 14,
-        catogory: "Women's clothing",
-        name:"Sustainable Materials Nike Swoosh",
-        color:1,
-        price:"869,000₫",
-        link:"../product/product.html",
-        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/vl2kixyrcn1aneoc9egs/swoosh-support-1-piece-pad-sports-bra-bhxKdc.png"
-    },
-    
-    {
-        id: 15,
-        catogory: "Women's Shoe",
-        name:"Nike Air Force 1 '07 LX",
-        color:1,
-        price:"3,519,000₫",
-        link:"../product/product.html",
-        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2f6fa0bc-9f31-4159-b721-d64a0cd747c8/air-force-1-07-lx-shoe-Jpw4wf.png"
-    },
-    
-    {
-        id: 16,
+        id: 2,
+        link:"D:/KieuLoan/project-internship/product/women2.html",
         catogory: "Women's Shoes",
-        name:"Nike Air Force 1 High SE",
-        color:2,
-        price:"3,669,000₫",
-        link:"../product/product.html",
-        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d5f84f54-480d-4186-a0ea-3fea15f59d67/air-force-1-high-se-shoes-6b703K.png"
+        name:"Nike Kiger 9",
+        color:1,
+        price:"4,109,000₫",
+        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/80d60071-f0c4-4da5-a551-a8e757275372/kiger-9-trail-running-shoes-dvCd2S.png"
     },
     
-
     {
-        id: 17,
+        id: 3,
+        link:"D:/KieuLoan/project-internship/product/women3.html",
         catogory: "Women's Shoes",
-        name:"Nike Air Force 1 Fontanka",
-        color:2,
-        price:"3,519,000₫",
-        link:"../product/product.html",
-        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/21a89b8f-7a80-4a44-a876-9ec2666644a8/air-force-1-fontanka-shoes-sJrqz3.png"
+        name:"Nike In-Season TR 13",
+        color:1,
+        price:"2,189,000₫",
+        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/917a90d3-e0ea-4494-94d4-7c7f3d0f3fac/in-season-tr-13-training-shoes-Z3Khdg.png"
     },
     
+    {
+        id: 4,
+        link:"D:/KieuLoan/project-internship/product/women4.html",
+        catogory: "Women's clothes",
+        name:"Nike Forward Shorts",
+        color:1,
+        price:"2,299,000₫",
+        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/821764b5-dcd3-447c-b619-4404d75f3a44/forward-shorts-high-waisted-shorts-2x878F.png"
+    },
     
     {
-        id: 18,
+        id: 5,
+        link:"D:/KieuLoan/project-internship/product/women5.html",
+        catogory: "Women's Shoes",
+        name:"Nike Pegasus 40",
+        color:1,
+        price:"3,829,000₫",
+        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/44313b89-d6db-475d-8498-98c3a024d516/pegasus-40-road-running-shoes-4TS8dd.png"
+    },
+   
+    {
+        id: 6,
+        link:"D:/KieuLoan/project-internship/product/women6.html",
+        catogory: "Women's clothes",
+        name:"Nike Dri-FIT One",
+        color:1,
+        price:"1,019,000₫",
+        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3a170a0b-8944-4de6-a147-972961055d76/dri-fit-one-high-waisted-18cm-biker-shorts-50GcSG.png"
+    },
+  
+    {
+        id: 7,
+        link:"D:/KieuLoan/project-internship/product/women7.html",
+        catogory: "Women's Shoes",
+        name:"Nike Quest 5 Premium",
+        color:1,
+        price:"2,349,000₫",
+        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8fe4d399-52a6-422f-b789-61ca263679cb/quest-5-road-running-shoes-j470CS.png"
+    },
+   
+    {
+        id: 8,
+        link:"D:/KieuLoan/project-internship/product/women8.html",
         catogory: "Women's Shoes",
         name:"Nike Air Max 97",
         color:1,
         price:"4,999,000₫",
-        link:"../product/product.html",
-        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d7462828-2c00-4cbf-9c5e-2521010c9ea5/air-max-97-shoes-d09rhX.png"
+        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7437e33d-fcc8-46a6-82d4-16ed34370b6f/air-max-97-shoes-B2TV3Z.png"
+    },
+  
+    {
+        id: 9,
+        link:"D:/KieuLoan/project-internship/product/women9.html",
+        catogory: "Women's clothes",
+        name:"Nike Dri-FIT One Luxe",
+        color:1,
+        price:"1,119,000₫",
+        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4a9c4530-2c66-49f4-b19c-022ed548319c/dri-fit-one-luxe-standard-fit-short-sleeve-top-KM5GHX.png"
     }
-    
+
 ];
 
 

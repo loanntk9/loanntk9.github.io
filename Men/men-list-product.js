@@ -2,89 +2,92 @@
 let womenListProduct=[
     {
         id: 10,
-        catogory: "Women's clothing",
-        name:"The Nike Polo ",
-        color:2,
-        price:"1,479,000₫",
-        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0e80a651-e22c-4998-b156-68cac8a33e35/polo-polo-j38PbP.png"
+        link:"D:/KieuLoan/project-internship/product/men10.html",
+        catogory: "Men's Shoes",
+        name:"Nike Air Max 97",
+        color:1,
+        price:"4,699,000₫",
+        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/cuvuokzz86meuxcssbma/air-max-97-shoes-EBZrb8.png"
     },
-    
 
     {
         id: 11,
-        link:"",
-        catogory: "Women's clothing",
-        name:"Naomi Osaka Collection",
+        link:"D:/KieuLoan/project-internship/product/men11.html",
+        catogory: "Men's Clothes",
+        name:"Nike ACG",
         color:1,
-        price:"1,299,649₫",
-        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e11c8cb8-a1bd-461c-be40-5ba14a12d7d7/naomi-osaka-collection-cropped-tennis-top-trPTd2.png"
+        price:"919,000₫",
+        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/37757891-99cb-4d50-825b-8777ea272dbf/acg-short-sleeve-t-shirt-9sHcl3.png"
     },
     
     {
         id: 12,
-        catogory: "Women's clothing",
-        name:"Nike Dri-FIT ADV AeroSwift",
+        link:"D:/KieuLoan/project-internship/product/men12.html",
+        catogory: "Men's Shoes",
+        name:"Nike Air Force 1 '07 LV8",
         color:1,
-        price:"1,429,000₫",
-        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1ae6aa5f-baf7-4e7c-942d-4a6ba3d547d0/dri-fit-adv-aeroswift-racing-crop-top-s0Ctkr.png"
+        price:"3,519,000₫",
+        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/54a510de-a406-41b2-8d62-7f8c587c9a7e/air-force-1-07-lv8-shoes-9KwrSk.png"
     },
     
-
-
     {
         id: 13,
-        catogory: "Women's clothing",
-        name:"Nike Sportswear Essential",
-        color:3,
-        price:"659,000₫",
-        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/53eb91da-8797-4664-b7b0-a42a95f1d4fa/sportswear-essential-t-shirt-9RqXMb.png"
+        link:"D:/KieuLoan/project-internship/product/men13.html",
+        catogory: "Men's Shoes",
+        name:"Nike Dunk Low",
+        color:1,
+        price:"3,519,000₫",
+        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a3ff6005-2dd2-4f18-a221-afb2da0b0d45/dunk-low-shoes-sggKLb.png"
     },
-    
+   
     {
         id: 14,
-        catogory: "Women's clothing",
-        name:"Sustainable Materials Nike Swoosh",
+        link:"D:/KieuLoan/project-internship/product/men14.html",
+        catogory: "Men's Clothes",
+        name:"Jordan Dri-FIT Sport",
         color:1,
-        price:"869,000₫",
-        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/vl2kixyrcn1aneoc9egs/swoosh-support-1-piece-pad-sports-bra-bhxKdc.png"
+        price:"969,000₫",
+        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d6668db7-df64-48aa-be50-e3fa1ea08533/jordan-dri-fit-sport-graphic-t-shirt-Pb126C.png"
     },
-    
-    {
-        id: 15,
-        catogory: "Women's Shoe",
-        name:"Nike Air Force 1 '07 LX",
-        color:1,
-        price:"3,519,000₫",
-        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2f6fa0bc-9f31-4159-b721-d64a0cd747c8/air-force-1-07-lx-shoe-Jpw4wf.png"
-    },
-    
-    {
-        id: 16,
-        catogory: "Women's Shoes",
-        name:"Nike Air Force 1 High SE",
-        color:2,
-        price:"3,669,000₫",
-        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d5f84f54-480d-4186-a0ea-3fea15f59d67/air-force-1-high-se-shoes-6b703K.png"
-    },
-    
 
     {
-        id: 17,
-        catogory: "Women's Shoes",
-        name:"Nike Air Force 1 Fontanka",
-        color:2,
-        price:"3,519,000₫",
-        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/21a89b8f-7a80-4a44-a876-9ec2666644a8/air-force-1-fontanka-shoes-sJrqz3.png"
+        id: 15,
+        link:"D:/KieuLoan/project-internship/product/men15.html",
+        catogory: "Men's Clothes",
+        name:"Nike Sportswear",
+        color:3,
+        price:"919,000₫",
+        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9c3435cf-f874-4999-bea5-ae8e9c9bf72e/sportswear-t-shirt-MRt3f0.png"
+    },
+
+    {
+        id: 16,
+        link:"D:/KieuLoan/project-internship/product/men16.html",
+        catogory: "Men's Shoes",
+        name:"Nike Air Max AP",
+        color:1,
+        price:"2,929,000₫",
+        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/df754862-b2a4-4949-ba03-63a5567c6c3d/air-max-ap-shoes-3Rdq04.png"
     },
     
+    {
+        id: 17,
+        link:"D:/KieuLoan/project-internship/product/men17.html",
+        catogory: "Men's Clothes",
+        name:"Nike Sportswear Air",
+        color:1,
+        price:"1,574,299₫",
+        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/07d4b840-b060-44e5-aade-825865a1b670/sportswear-air-french-terry-crew-CSbFSR.png"
+    },
     
     {
         id: 18,
-        catogory: "Women's Shoes",
-        name:"Nike Air Max 97",
+        link:"D:/KieuLoan/project-internship/product/men18.html",
+        catogory: "Men's Shoes",
+        name:"Nike Vaporfly 3",
         color:1,
-        price:"4,999,000₫",
-        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d7462828-2c00-4cbf-9c5e-2521010c9ea5/air-max-97-shoes-d09rhX.png"
+        price:"6,609,000₫",
+        photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5fc3980b-c562-4463-9da4-6b7efd2dee59/vaporfly-3-road-racing-shoes-xsDgvM.png"
     }
     
 ];
@@ -95,16 +98,16 @@ function createProduct(list){
     return `
         <div class="products">
                     <div class="product-top">
-                        <a href="" class="product-thumb">
+                        <a href="${list.link}" class="product-thumb">
                              <img src="${list.photo}">
                         </a>
                         <button class="add" id="add">ADD +</button>
                     </div>
                     <div class="product-info">
-                        <a href="#" class="product-cat">${list.catogory}</a>
-                        <a href="#" class="product-name">${list.name}</a>
-                        <a href="#" class="product-color">${list.color} colour</a>
-                        <a href="#" class="product-price">${list.price}</a>
+                        <a href="${list.link}" class="product-cat">${list.catogory}</a>
+                        <a href="${list.link}" class="product-name">${list.name}</a>
+                        <a href="${list.link}" class="product-color">${list.color} colour</a>
+                        <a href="${list.link}" class="product-price">${list.price}</a>
                     </div>
         </div>
     `;

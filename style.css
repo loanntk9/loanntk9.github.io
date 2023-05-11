@@ -3,6 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+.txt-pegasus{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: 400;
+}
+.txt-big{
+    font-size: 45px;
+    font-weight: 1000;
+
+}
 .style-home{
     width: 1440px;
     margin: 20px 40px;

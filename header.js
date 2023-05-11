@@ -73,7 +73,7 @@ function header() {
 //     window.location.href = menListFullUrl;
 //   }
   function redirectToMen(){
-    window.location.href = "/Men/men-list-product.html";
+    window.location.href = "../Men/men-list-product.html";
   }
 //   const kidsLink = document.querySelector("hd-select-k" );
 //   kidsLink.addEventListener("click", redirectToKids);

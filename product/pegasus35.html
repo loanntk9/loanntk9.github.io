@@ -79,8 +79,8 @@
               </li>
             </div>
             <div class="h-clt-Button">
-              <button class="h-clt-Button1" onclick="productAdd()">Add to Bag</button>
-              <button class="h-clt-Button2">
+                <button class="h-clt-Button1" value='{"img":"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/906b6483-2ab9-4d80-a0a1-a6a45ad76476/dri-fit-running-t-shirt-WWz388.png","name":"Nike Dri-FIT","price":"819,000₫"}' onclick="handleAddButtonClick(event)">Add to Bag</button>
+                <button class="h-clt-Button2">
                  Favourite <i class="fa-regular fa-heart"></i>
               </button>
             </div>
@@ -160,8 +160,24 @@
         </div>
         </div>
     <script>
-        function productAdd() {
-            alert("The product has been added to your cart");
+        function handleAddButtonClick(event){
+            const valueBtn = event.target.value;
+            const item= JSON.parse(valueBtn);
+            // console.log(item);
+            if (localStorage.getItem("cartItem") !== null) {
+                // Key tồn tại trong localStorage
+                let listItem=JSON.parse(localStorage.getItem("cartItem"));
+                listItem.push(item);
+                localStorage.setItem("cartItem",JSON.stringify(listItem));
+                alert("The product has been added to your cart");
+            } else {
+                // Key không tồn tại trong localStorage
+                let listItem=[];
+                listItem.push(item);
+                localStorage.setItem("cartItem",JSON.stringify(listItem));
+                alert("The product has been added to your cart");
+            }
+    
         }
     </script>
       

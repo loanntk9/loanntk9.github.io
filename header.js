@@ -49,7 +49,7 @@ function header() {
     </div>
     <div class="index-banner-df-icons">
         <a href="#"><i class="fa-regular fa-heart"></i></a>
-        <a href="cart.html"><i class="fa-regular fa-credit-card"></i></a>
+        <a href="/cart.html"><i class="fa-regular fa-credit-card"></i></a>
     </div>
   </div>
   

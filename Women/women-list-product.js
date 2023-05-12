@@ -94,20 +94,23 @@ let womenListProduct=[
 
 
 
-function createProduct(list){
+function createProduct(item){
+const item1 = {img: item.photo, name: item.name, price: item.price};
+const item2= JSON.stringify(item1);
+
     return `
         <div class="products">
                     <div class="product-top">
-                        <a href="${list.link}" class="product-thumb">
-                             <img src="${list.photo}">
+                        <a href="${item.link}" class="product-thumb">
+                             <img src="${item.photo}">
                         </a>
-                        <button class="add" id="${list.id}">ADD +</button>
+                        <button class="add" id="${item.id}" value='${item2}' onClick="handleAddButtonClick(event)" >ADD +</button>
                     </div>
                     <div class="product-info">
-                        <a href="${list.link}" class="product-cat">${list.catogory}</a>
-                        <a href="${list.link}" class="product-name">${list.name}</a>
-                        <a href="${list.link}" class="product-color">${list.color} colour</a>
-                        <a href="${list.link}" class="product-price">${list.price}</a>
+                        <a href="${item.link}" class="product -cat">${item.catogory}</a>
+                        <a href="${item.link}" class="product-name">${item.name}</a>
+                        <a href="${item.link}" class="product-color">${item.color} colour</a>
+                        <a href="${item.link}" class="product-price">${item.price}</a>
                     </div>
         </div>
     `;
@@ -121,10 +124,27 @@ function render(list){
         const j= createProduct(list[i]);
          wp.innerHTML += j;
     }
-
 }
 render(womenListProduct);
 
+// thêm data lên local khi click vào btn add
+function handleAddButtonClick(event){
+    const valueBtn = event.target.value;
+    const item= JSON.parse(valueBtn);
+    // console.log(item);
+    if (localStorage.getItem("cartItem") !== null) {
+        // Key tồn tại trong localStorage
+        let listItem=JSON.parse(localStorage.getItem("cartItem"));
+        listItem.push(item);
+        localStorage.setItem("cartItem",JSON.stringify(listItem));
+        alert("The product has been added to your cart");
+    } else {
+        // Key không tồn tại trong localStorage
+        let listItem=[];
+        listItem.push(item);
+        localStorage.setItem("cartItem",JSON.stringify(listItem));
+        alert("The product has been added to your cart");
+    }
+    
+}
 
-const btnAdd= document.getElementById("add");
-btnAdd.addEventListener("click",function(){alert("The product has been added to your cart");});

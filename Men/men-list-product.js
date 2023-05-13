@@ -24,7 +24,7 @@ let menListProduct=[
         id: 12,
         link:"../product/men12.html",
         catogory: "Shoes",
-        name:"Nike Air Force 1 '07 LV8",
+        name:"Nike Air Force 1 07 LV8",
         color:"Orange",
         price:"3.519.000",
         photo:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/54a510de-a406-41b2-8d62-7f8c587c9a7e/air-force-1-07-lv8-shoes-9KwrSk.png"

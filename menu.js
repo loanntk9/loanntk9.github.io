@@ -4,21 +4,7 @@ function menu(){
             <div class="croll-bar">
                 <ul class="main-menu">
                     <li><a href="#">Shoes</a></li>
-                    <li><a href="#">Hoodies & Sweatshirts</a></li>
-                    <li><a href="#">Strousers & Tights</a></li>
-                    <li><a href="#">Tops & T-Shirts</a></li>
-                    <li><a href="#">Shorts</a></li>
-                    <li><a href="#">Accessories & Equipment</a></li>
-                    <li><p></p></li>
-                    <li class="mm-txt"><a href="#">Gender</a>
-                        <ul class="sub-menu">
-                            
-                            <li><div><a href="#">Men</a></div></li>
-                            <li><div><a href="#">Women</a></div></li>
-                            <li><div><a href="#">Unisex</a></div></li>
-                            
-                        </ul>
-                    </li>
+                    <li><a href="#">Clothes</a></li>
                     <li><p></p></li>
                     <li class="mm-txt">Colour
                         <ul class="sub-menu">

@@ -14,7 +14,7 @@ function createCartItem(item){
             <p class="cart-name-pro">${item.name}</p>
             <p class="cart-price-pro">${item.price}đ</p>
         </div>
-        <button class="cart-del-pro" value="${item.id}" onClick="delItemCart(${item.id})">x</button>
+        <button class="cart-del-pro" onClick="delItemCart(${item.id})">x</button>
     </div>
     `;
 }

@@ -151,7 +151,7 @@ function createProduct(item){
                             <a href="${item.link}" class="product -cat">Nike Pegasus ${item.catogory}</a>
                             <a href="${item.link}" class="product-name">${item.name}</a>
                             <a href="${item.link}" class="product-color">${item.color} colour</a>
-                            <a href="${item.link}" class="product-price">price:${item.price}đ</a>
+                            <a href="${item.link}" class="product-price">Price:${item.price}đ</a>
                         </div>
             </div>
         `;

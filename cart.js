@@ -60,7 +60,7 @@ function total(list){
     for(let key in list){
         total += parseFloat(list[key].price);
     }
-    return total;
+    return total.toFixed(3);
 }
 
 const tt=document.getElementById("cart-txt-total1-id");

@@ -52,7 +52,7 @@ function createTotal1(){
 }
 
 function total(list){
-    let total=0.0
+    let total=0.0;
     // for(let i=0; i<list.length;i++){
     //     total += parseFloat(list[i].price);
     // }

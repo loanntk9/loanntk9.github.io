@@ -38,7 +38,7 @@ function createTotal(){
     return `
     <div class="cart-txt-total1">
         <span>Total:</span>
-        <span class="cart-txt-total2">${total(cartItem)}.000đ</span>
+        <span class="cart-txt-total2">${total(cartItem)}đ</span>
     </div>
     `;
 }
@@ -52,15 +52,18 @@ function createTotal1(){
 }
 
 function total(list){
-    let total=0.0;
+    let total= 0.0;
     // for(let i=0; i<list.length;i++){
     //     total += parseFloat(list[i].price);
     // }
 
     for(let key in list){
-        total += parseFloat(list[key].price);
+        let str=(list[key].price);
+        
+        total += parseInt(str.replace(/\./g, ""));
     }
-    return total.toFixed(3);
+
+    return total.toLocaleString('vi-VN');
 }
 
 const tt=document.getElementById("cart-txt-total1-id");

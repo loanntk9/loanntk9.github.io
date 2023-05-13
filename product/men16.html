@@ -90,7 +90,7 @@
               </li>
             </div>
             <div class="h-clt-Button">
-                <button class="h-clt-Button1" value='{"img":"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/746357f7-f971-45d4-ae1f-2fc59d3f2bf7/air-max-ap-shoes-3Rdq04.png","name":"Nike Air Max AP","price":"2.929.000"}' onclick="handleAddButtonClick(event)">Add to Bag</button>
+                <button class="h-clt-Button1" value='{"id":"16", "img":"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/746357f7-f971-45d4-ae1f-2fc59d3f2bf7/air-max-ap-shoes-3Rdq04.png","name":"Nike Air Max AP","price":"2.929.000"}' onclick="handleAddButtonClick(event)">Add to Bag</button>
                 <button class="h-clt-Button2">
                 Favourite <i class="fa-regular fa-heart"></i>
               </button>
@@ -172,24 +172,46 @@
       </div>
     <script>
         function handleAddButtonClick(event){
-            const valueBtn = event.target.value;
-            const item= JSON.parse(valueBtn);
-            // console.log(item);
-            if (localStorage.getItem("cartItem") !== null) {
-                // Key tồn tại trong localStorage
-                let listItem=JSON.parse(localStorage.getItem("cartItem"));
-                listItem.push(item);
-                localStorage.setItem("cartItem",JSON.stringify(listItem));
-                alert("The product has been added to your cart");
-            } else {
-                // Key không tồn tại trong localStorage
-                let listItem=[];
-                listItem.push(item);
-                localStorage.setItem("cartItem",JSON.stringify(listItem));
-                alert("The product has been added to your cart");
-            }
+        const valueBtn = event.target.value;
+        const item= JSON.parse(valueBtn);
+        // console.log(item);
+        if (localStorage.getItem("cartItem") !== null) {
+            // Key tồn tại trong localStorage
+            // let listItem=JSON.parse(localStorage.getItem("cartItem"));
+            // listItem.push(item);
+            // localStorage.setItem("cartItem",JSON.stringify(listItem));
+            // alert("The product has been added to your cart");
     
+            let mapItems = JSON.parse(localStorage.getItem("cartItem"));
+            
+            let itemJSON = JSON.stringify(item);
+            console.log("itemJSON:", itemJSON);
+            
+            mapItems[item.id] = item;
+    
+            localStorage.setItem("cartItem",JSON.stringify(mapItems));
+            alert("The product has been added to your cart");
+
+        } else {
+            // Key không tồn tại trong localStorage
+            // let listItem=[];
+            // listItem.push(item);
+            // localStorage.setItem("cartItem",JSON.stringify(listItem));
+            // alert("The product has been added to your cart");
+    
+           
+            let itemJSON = JSON.stringify(item);
+            console.log("itemJSON:", itemJSON);
+    
+            let mapItems = {
+                [item.id] : item
+            };
+    
+            localStorage.setItem("cartItem",JSON.stringify(mapItems));
+            alert("The product has been added to your cart");
         }
+        
+    }
     </script>
       
     <div id="footer-index"></div>

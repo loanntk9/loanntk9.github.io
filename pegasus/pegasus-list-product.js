@@ -95,7 +95,7 @@ let pegasusListProduct=[
 
 
 function createProduct(item){
-    const item1 = {img: item.photo, name: item.name, price: item.price};
+    const item1 = {id:item.id, img: item.photo, name: item.name, price: item.price};
     const item2= JSON.stringify(item1);
     
         return `
@@ -134,15 +134,37 @@ function createProduct(item){
         // console.log(item);
         if (localStorage.getItem("cartItem") !== null) {
             // Key tồn tại trong localStorage
-            let listItem=JSON.parse(localStorage.getItem("cartItem"));
-            listItem.push(item);
-            localStorage.setItem("cartItem",JSON.stringify(listItem));
+            // let listItem=JSON.parse(localStorage.getItem("cartItem"));
+            // listItem.push(item);
+            // localStorage.setItem("cartItem",JSON.stringify(listItem));
+            // alert("The product has been added to your cart");
+    
+            let mapItems = JSON.parse(localStorage.getItem("cartItem"));
+            
+            let itemJSON = JSON.stringify(item);
+            console.log("itemJSON:", itemJSON);
+            
+            mapItems[item.id] = item;
+    
+            localStorage.setItem("cartItem",JSON.stringify(mapItems));
             alert("The product has been added to your cart");
+    
         } else {
             // Key không tồn tại trong localStorage
-            let listItem=[];
-            listItem.push(item);
-            localStorage.setItem("cartItem",JSON.stringify(listItem));
+            // let listItem=[];
+            // listItem.push(item);
+            // localStorage.setItem("cartItem",JSON.stringify(listItem));
+            // alert("The product has been added to your cart");
+    
+           
+            let itemJSON = JSON.stringify(item);
+            console.log("itemJSON:", itemJSON);
+    
+            let mapItems = {
+                [item.id] : item
+            };
+    
+            localStorage.setItem("cartItem",JSON.stringify(mapItems));
             alert("The product has been added to your cart");
         }
         

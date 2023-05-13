@@ -72,8 +72,7 @@ function delAllItem(){
     localStorage.removeItem('cartItem');
     ci.innerHTML = '';
     render(mapCartItem);
-    // tt.innerHTML='';
-    // tt.innerHTML=createTotal(mapCartItem);
+    tt.innerHTML=createTotal(mapCartItem);
 }
 
 function delItemCart(idDel){
@@ -83,4 +82,5 @@ function delItemCart(idDel){
     localStorage.setItem("cartItem", JSON.stringify(mapCartItem));
     ci.innerHTML = '';
     render(mapCartItem);
+    tt.innerHTML=createTotal(mapCartItem);
 }

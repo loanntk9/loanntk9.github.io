@@ -1,9 +1,10 @@
-const cartItem= JSON.parse(localStorage.getItem('cartItem'));
 
 function load() {
     //function const =
     console.log("Load");
+    const cartItem= JSON.parse(localStorage.getItem('cartItem'));
     render(cartItem);
+    
 }
 
 function createCartItem(item){
@@ -27,29 +28,36 @@ function render(list){
     // }
 
     // console.log("list:", list.entries());
-    for (let key in list) {
-        const j = createCartItem(list[key]);
-         ci.innerHTML += j;
+    const tt=document.getElementById("cart-txt-total1-id");
+    if(list != null) {
+        ci.innerHTML = '';
+        for (let key in list) {
+            const j = createCartItem(list[key]);
+             ci.innerHTML += j;
+        }
+        tt.innerHTML = createTotal(list);
+    } else {
+        ci.innerHTML = '';
+        tt.innerHTML = '';
+        tt.innerHTML = createTotal(null);
     }
+    
 }
 
 
-function createTotal(){
+function createTotal(cartItem){
+    let totalPrice = 0;
+    if(cartItem != null) {
+        totalPrice = total(cartItem);
+    }
     return `
     <div class="cart-txt-total1">
         <span>Total:</span>
-        <span class="cart-txt-total2">${total(cartItem)}đ</span>
+        <span class="cart-txt-total2">${totalPrice}đ</span>
     </div>
     `;
 }
-function createTotal1(){
-    return `
-    <div class="cart-txt-total1">
-        <span>Total:</span>
-        <span class="cart-txt-total2">0đ</span>
-    </div>
-    `;
-}
+
 
 function total(list){
     let total= 0.0;
@@ -66,13 +74,12 @@ function total(list){
     return total.toLocaleString('vi-VN');
 }
 
-const tt=document.getElementById("cart-txt-total1-id");
-tt.innerHTML=createTotal();
+
 function delAllItem(){
     localStorage.removeItem('cartItem');
     ci.innerHTML = '';
-    render(mapCartItem);
-    tt.innerHTML=createTotal(mapCartItem);
+
+    render(null);
 }
 
 function delItemCart(idDel){
@@ -82,5 +89,4 @@ function delItemCart(idDel){
     localStorage.setItem("cartItem", JSON.stringify(mapCartItem));
     ci.innerHTML = '';
     render(mapCartItem);
-    tt.innerHTML=createTotal(mapCartItem);
 }

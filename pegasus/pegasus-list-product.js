@@ -122,9 +122,9 @@ function menu(){
                     <li><p></p></li>
                     <li id="saleBy" class="mm-txt">Shop By Price
                         <ul class="sub-menu">
-                            <li><div><a href="#">Under 1,000,000đ</a></div></li>
-                            <li><div><a href="#">1,001,000đ - 3,999,000đ</a></div></li>
-                            <li><div><a href="#">Over 4,000,000đ</a></div></li>
+                            <li><div><a href="#" onClick="filterPrice(0,1000000)>Under 1,000,000đ</a></div></li>
+                            <li><div><a href="#" onClick="filterPrice(1001000,3999000)>1,001,000đ - 3,999,000đ</a></div></li>
+                            <li><div><a href="#" onClick="filterPrice(4000000,10000000)>Over 4,000,000đ</a></div></li>
                         </ul> 
                     </li>
                 </ul>
@@ -230,6 +230,15 @@ function createProduct(item){
         console.log(filerValue);
         const proFilter = pegasusListProduct.filter(function(pro) {
             return pro.color == filerValue;
+          });
+        console.log(proFilter);
+        wp.innerHTML='';
+        render(proFilter);
+    }
+    function filterPrice(a,b){
+        const proFilter = pegasusListProduct.filter(function(pro) {
+            let p=((pro.price).replace(/\./g, ""));
+            return (p>=a && p<=b);
           });
         console.log(proFilter);
         wp.innerHTML='';

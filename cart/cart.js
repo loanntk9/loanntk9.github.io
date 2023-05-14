@@ -76,9 +76,18 @@ function total(list){
 
 
 function delAllItem(){
+    
+    let mapCartItem= JSON.parse(localStorage.getItem('cartItem'));
+    let oi=document.getElementById("item-info-id");
+    // oi.innerHTML=
+    let result = ``;
+    for (let key in mapCartItem) {
+        result += createOderItem(mapCartItem[key]);
+    }
+    oi.innerHTML=result;
+    showPopup();
     localStorage.removeItem('cartItem');
     ci.innerHTML = '';
-
     render(null);
 }
 
@@ -87,6 +96,51 @@ function delItemCart(idDel){
     let mapCartItem= JSON.parse(localStorage.getItem('cartItem'));
     delete mapCartItem[idDel];
     localStorage.setItem("cartItem", JSON.stringify(mapCartItem));
-    ci.innerHTML = '';
-    render(mapCartItem);
+    // ci.innerHTML = '';
+    // render(mapCartItem);
 }
+function createOderItem(item){
+    console.log("item:", item);
+    
+    return`
+    <div class="item-info">
+        <div class="item-info-name txt-info-small">${item.name}</div>
+        <div class="item-info-price txt-info-small">${item.price}đ</div>
+    </div>
+    `;
+}
+// Lấy thẻ button close
+
+// Hiển thị popup
+function showPopup() {
+   popup.style.display = 'block';
+}
+
+// Ẩn popup
+function hidePopup() {
+   popup.style.display = 'none';
+}
+
+// Khi người dùng click vào button close
+function oderConfirm(){
+    // var closeBtn = document.getElementById('close');
+    // closeBtn.addEventListener('click', hidePopup);
+    alert("Oder Success!");
+    hidePopup();
+    window.location.href="../index.html";
+}
+
+
+function createOderTotal(list){
+    return`
+    <div class="pro-info-total">total: ${total(list)}đ </div>
+    `;
+}
+
+function showOderTotal(){
+    const ot= document.getElementById("pro-info-total-id");
+    let mapCartItem= JSON.parse(localStorage.getItem('cartItem'));
+    ot.innerHTML=createOderTotal(mapCartItem);
+
+}
+showOderTotal();

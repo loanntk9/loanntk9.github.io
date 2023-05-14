@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="../header/header.css">
   <link rel="stylesheet" href="../footer/footer.css">
+  <link rel="stylesheet" href="../popup/popup.css">
+
   <!-- <link rel="stylesheet" href="menu.css"> -->
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" href="/imgs/logo/icon-web.png" type="image/x-icon" />
@@ -35,6 +37,56 @@
     </div>
   </div>
 
+  <div id="popup" style="display:none">
+    <div class="info-frame">
+        <p class="txt-info-big">Order Information</p>
+        <div class="txt-info-medium">Your Information:
+            <div>
+                <span>
+                    <label class="txt-info-small">Your Name: </label>
+                    <input type="text" class="input-info">
+                </span>
+            </div>
+            <div>
+                <span>
+                    <label class="txt-info-small">Your phone number: </label>
+                    <input type="text" class="input-info">
+                </span>
+            </div>
+            <div class="txt-info-small">Your address: </div>
+            <div>
+                <span>
+                    <label class="txt-info-small">City : </label>
+                    <input type="text" class="input-info">
+                </span>
+                <span>
+                    <label class="txt-info-small">District: </label>
+                    <input type="text" class="input-info">
+                </span>
+            </div>
+            <div>
+                <span>
+                    <label class="txt-info-small">Ward: </label>
+                    <input type="text" class="input-info">
+                </span>
+                <span>
+                    <label class="txt-info-small">Detailed address: </label>
+                    <input type="text" class="input-info" style="width: 150px;">
+                </span>
+            </div>
+        </div>
+
+
+        <div class="txt-info-medium pro-info-title">Product Information:
+            <div id="item-info-id"></div>
+            <div id="pro-info-total-id"></div>
+        </div>
+
+
+        <button id="close" onclick="oderConfirm()">Confirm</button>
+      </div>
+    
+  </div>
   <div id="footer-index"></div>
   <script src="../header/header.js"></script>
   <script src="../footer/footer.js"></script>
